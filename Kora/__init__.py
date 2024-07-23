@@ -22,9 +22,9 @@ app = Client(
 app.start()
 
 # Vars
-API_ID = 
-API_HASH = ""
-BOT_TOKEN = ""
+API_ID = 18641799
+API_HASH = "2027706706fd39baf84c01ff5b95a6a6"
+BOT_TOKEN = "7001280039:AAE1Zm4aDgrOcr2L9_pbivf6J7TBE0SJfWU"
 BOT_ID = app.me.id
 BOT_NAME = app.me.first_name
 BOT_USERNAME = app.me.username
