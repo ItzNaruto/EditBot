@@ -26,6 +26,11 @@ def get_readable_time(seconds: int) -> str:
     ping_time += ":".join(time_list)
     return ping_time
 
+API_ID = 18641799
+API_HASH = "2027706706fd39baf84c01ff5b95a6a6"
+BOT_TOKEN = "7001280039:AAE1Zm4aDgrOcr2L9_pbivf6J7TBE0SJfWU"
+BOT_USERNAME = "EditManagerBot"
+
 app = Client(
     "Kora", 
     api_id=API_ID, 
