@@ -29,7 +29,7 @@ Click the button below to add me and safeguard our discussions!
     )
     await message.reply_text(start_text, reply_markup=keyboard)
 
-@app.on_message(filters.group & filters.edited)
+@app.on_message(filters.group & filters.on_edited_message)
 async def check_edit(client, message):
     user_mention = message.from_user.mention
 
